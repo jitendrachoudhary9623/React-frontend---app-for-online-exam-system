@@ -1,0 +1,201 @@
+exports[`UI test for Error should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoaderComponent
+    errorMessage="Loading data, please wait" />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        align="center">
+        <h5>
+                Loading data, please wait
+        </h5>
+        <img
+                src="Processing2.gif"
+                style={
+                        Object {
+                                "width": "10%",
+                              }
+                } />
+</div>,
+      "className": "row card",
+      "style": Object {
+        "height": "50vh",
+        "margin": "2%",
+        "padding": "5%",
+        "width": "95vw",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "align": "center",
+        "children": Array [
+          <h5>
+            Loading data, please wait
+</h5>,
+          <img
+            src="Processing2.gif"
+            style={
+                        Object {
+                                    "width": "10%",
+                                  }
+            } />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Loading data, please wait",
+          },
+          "ref": null,
+          "rendered": "Loading data, please wait",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "src": "Processing2.gif",
+            "style": Object {
+              "width": "10%",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          align="center">
+          <h5>
+                    Loading data, please wait
+          </h5>
+          <img
+                    src="Processing2.gif"
+                    style={
+                              Object {
+                                        "width": "10%",
+                                      }
+                    } />
+</div>,
+        "className": "row card",
+        "style": Object {
+          "height": "50vh",
+          "margin": "2%",
+          "padding": "5%",
+          "width": "95vw",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "align": "center",
+          "children": Array [
+            <h5>
+              Loading data, please wait
+</h5>,
+            <img
+              src="Processing2.gif"
+              style={
+                            Object {
+                                          "width": "10%",
+                                        }
+              } />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading data, please wait",
+            },
+            "ref": null,
+            "rendered": "Loading data, please wait",
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": "Processing2.gif",
+              "style": Object {
+                "width": "10%",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,690 @@
+exports[`UI Test for Question Paper Button Question Paper  should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionPaper
+    questions={
+        Object {
+            "data": Array [
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "Monarchy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Oligarchy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Plutocracy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Autocracy",
+                  },
+                ],
+                "Question": "State in which the few govern the many",
+                "actualAnswer": "1",
+                "id": 1,
+                "type": "objective",
+                "userAnswer": "",
+              },
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "method",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "native",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "subclass",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "references",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "array",
+                  },
+                ],
+                "Question": "Which is a reserved word in the Java programming language?",
+                "actualAnswer": "2",
+                "id": 2,
+                "type": "objective",
+                "userAnswer": "",
+              },
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "6.54 sec",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "44.32 sec",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "55 sec",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "30.2 sec",
+                  },
+                ],
+                "Question": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+                "actualAnswer": "1",
+                "id": 3,
+                "type": "objective",
+                "userAnswer": "",
+              },
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "8 km",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "9 km",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "6 km",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "7.5 km",
+                  },
+                ],
+                "Question": "Devesh can cover a certain distance in 1 hour 24 minutes by covering two-third of the distance at 6 km/hour and the rest at 7 km/hr. Calculate total distance.",
+                "actualAnswer": "3",
+                "id": 4,
+                "type": "objective",
+                "userAnswer": "",
+              },
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "Limited",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Small",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Little",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Short",
+                  },
+                ],
+                "Question": "In the following the questions choose the word which best expresses the meaning of the given word.
+        BRIEF",
+                "actualAnswer": "4",
+                "id": 5,
+                "type": "objective",
+                "userAnswer": "",
+              },
+              Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "True",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "False",
+                  },
+                ],
+                "Question": "Java is a pure object oriented language",
+                "actualAnswer": "2",
+                "id": 6,
+                "type": "objective",
+                "userAnswer": "",
+              },
+            ],
+          }
+    }
+    seconds={5} />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="col s8">
+          <Question
+                    handleAnswerClick={[Function]}
+                    id="a1"
+                    item={
+                              Object {
+                                        "Answers": Array [
+                                          Object {
+                                            "marked": false,
+                                            "option": "Monarchy",
+                                          },
+                                          Object {
+                                            "marked": false,
+                                            "option": "Oligarchy",
+                                          },
+                                          Object {
+                                            "marked": false,
+                                            "option": "Plutocracy",
+                                          },
+                                          Object {
+                                            "marked": false,
+                                            "option": "Autocracy",
+                                          },
+                                        ],
+                                        "Question": "State in which the few govern the many",
+                                        "actualAnswer": "1",
+                                        "id": 1,
+                                        "type": "objective",
+                                        "userAnswer": "",
+                                      }
+                    } />
+</div>,
+        <div
+          className="col s3 navigationStyle">
+          <Timer
+                    seconds={5}
+                    timerUpHandler={[Function]} />
+          <button
+                    className="row col s12 btn grey lighten-5 buttonStyle"
+                    onClick={[Function]}
+                    style={
+                              Object {
+                                        "color": "black",
+                                      }
+                    }>
+                    Next 
+          </button>
+          <button
+                    className="row col s12 btn grey lighten-5 buttonStyle"
+                    onClick={[Function]}
+                    style={
+                              Object {
+                                        "color": "black",
+                                      }
+                    }>
+                    Previous 
+          </button>
+          <SubmitButton
+                    timerUpHandler={[Function]} />
+</div>,
+      ],
+      "className": "row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Question
+            handleAnswerClick={[Function]}
+            id="a1"
+            item={
+                        Object {
+                                    "Answers": Array [
+                                      Object {
+                                        "marked": false,
+                                        "option": "Monarchy",
+                                      },
+                                      Object {
+                                        "marked": false,
+                                        "option": "Oligarchy",
+                                      },
+                                      Object {
+                                        "marked": false,
+                                        "option": "Plutocracy",
+                                      },
+                                      Object {
+                                        "marked": false,
+                                        "option": "Autocracy",
+                                      },
+                                    ],
+                                    "Question": "State in which the few govern the many",
+                                    "actualAnswer": "1",
+                                    "id": 1,
+                                    "type": "objective",
+                                    "userAnswer": "",
+                                  }
+            } />,
+          "className": "col s8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "b1",
+          "nodeType": "class",
+          "props": Object {
+            "handleAnswerClick": [Function],
+            "id": "a1",
+            "item": Object {
+              "Answers": Array [
+                Object {
+                  "marked": false,
+                  "option": "Monarchy",
+                },
+                Object {
+                  "marked": false,
+                  "option": "Oligarchy",
+                },
+                Object {
+                  "marked": false,
+                  "option": "Plutocracy",
+                },
+                Object {
+                  "marked": false,
+                  "option": "Autocracy",
+                },
+              ],
+              "Question": "State in which the few govern the many",
+              "actualAnswer": "1",
+              "id": 1,
+              "type": "objective",
+              "userAnswer": "",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Timer
+              seconds={5}
+              timerUpHandler={[Function]} />,
+            <button
+              className="row col s12 btn grey lighten-5 buttonStyle"
+              onClick={[Function]}
+              style={
+                            Object {
+                                          "color": "black",
+                                        }
+              }>
+              Next 
+</button>,
+            <button
+              className="row col s12 btn grey lighten-5 buttonStyle"
+              onClick={[Function]}
+              style={
+                            Object {
+                                          "color": "black",
+                                        }
+              }>
+              Previous 
+</button>,
+            <SubmitButton
+              timerUpHandler={[Function]} />,
+          ],
+          "className": "col s3 navigationStyle",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "seconds": 5,
+              "timerUpHandler": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next ",
+              "className": "row col s12 btn grey lighten-5 buttonStyle",
+              "onClick": [Function],
+              "style": Object {
+                "color": "black",
+              },
+            },
+            "ref": null,
+            "rendered": "Next ",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Previous ",
+              "className": "row col s12 btn grey lighten-5 buttonStyle",
+              "onClick": [Function],
+              "style": Object {
+                "color": "black",
+              },
+            },
+            "ref": null,
+            "rendered": "Previous ",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "timerUpHandler": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col s8">
+            <Question
+                        handleAnswerClick={[Function]}
+                        id="a1"
+                        item={
+                                    Object {
+                                                "Answers": Array [
+                                                  Object {
+                                                    "marked": false,
+                                                    "option": "Monarchy",
+                                                  },
+                                                  Object {
+                                                    "marked": false,
+                                                    "option": "Oligarchy",
+                                                  },
+                                                  Object {
+                                                    "marked": false,
+                                                    "option": "Plutocracy",
+                                                  },
+                                                  Object {
+                                                    "marked": false,
+                                                    "option": "Autocracy",
+                                                  },
+                                                ],
+                                                "Question": "State in which the few govern the many",
+                                                "actualAnswer": "1",
+                                                "id": 1,
+                                                "type": "objective",
+                                                "userAnswer": "",
+                                              }
+                        } />
+</div>,
+          <div
+            className="col s3 navigationStyle">
+            <Timer
+                        seconds={5}
+                        timerUpHandler={[Function]} />
+            <button
+                        className="row col s12 btn grey lighten-5 buttonStyle"
+                        onClick={[Function]}
+                        style={
+                                    Object {
+                                                "color": "black",
+                                              }
+                        }>
+                        Next 
+            </button>
+            <button
+                        className="row col s12 btn grey lighten-5 buttonStyle"
+                        onClick={[Function]}
+                        style={
+                                    Object {
+                                                "color": "black",
+                                              }
+                        }>
+                        Previous 
+            </button>
+            <SubmitButton
+                        timerUpHandler={[Function]} />
+</div>,
+        ],
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Question
+              handleAnswerClick={[Function]}
+              id="a1"
+              item={
+                            Object {
+                                          "Answers": Array [
+                                            Object {
+                                              "marked": false,
+                                              "option": "Monarchy",
+                                            },
+                                            Object {
+                                              "marked": false,
+                                              "option": "Oligarchy",
+                                            },
+                                            Object {
+                                              "marked": false,
+                                              "option": "Plutocracy",
+                                            },
+                                            Object {
+                                              "marked": false,
+                                              "option": "Autocracy",
+                                            },
+                                          ],
+                                          "Question": "State in which the few govern the many",
+                                          "actualAnswer": "1",
+                                          "id": 1,
+                                          "type": "objective",
+                                          "userAnswer": "",
+                                        }
+              } />,
+            "className": "col s8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "b1",
+            "nodeType": "class",
+            "props": Object {
+              "handleAnswerClick": [Function],
+              "id": "a1",
+              "item": Object {
+                "Answers": Array [
+                  Object {
+                    "marked": false,
+                    "option": "Monarchy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Oligarchy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Plutocracy",
+                  },
+                  Object {
+                    "marked": false,
+                    "option": "Autocracy",
+                  },
+                ],
+                "Question": "State in which the few govern the many",
+                "actualAnswer": "1",
+                "id": 1,
+                "type": "objective",
+                "userAnswer": "",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Timer
+                seconds={5}
+                timerUpHandler={[Function]} />,
+              <button
+                className="row col s12 btn grey lighten-5 buttonStyle"
+                onClick={[Function]}
+                style={
+                                Object {
+                                                "color": "black",
+                                              }
+                }>
+                Next 
+</button>,
+              <button
+                className="row col s12 btn grey lighten-5 buttonStyle"
+                onClick={[Function]}
+                style={
+                                Object {
+                                                "color": "black",
+                                              }
+                }>
+                Previous 
+</button>,
+              <SubmitButton
+                timerUpHandler={[Function]} />,
+            ],
+            "className": "col s3 navigationStyle",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "seconds": 5,
+                "timerUpHandler": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Next ",
+                "className": "row col s12 btn grey lighten-5 buttonStyle",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "black",
+                },
+              },
+              "ref": null,
+              "rendered": "Next ",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Previous ",
+                "className": "row col s12 btn grey lighten-5 buttonStyle",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "black",
+                },
+              },
+              "ref": null,
+              "rendered": "Previous ",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "timerUpHandler": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

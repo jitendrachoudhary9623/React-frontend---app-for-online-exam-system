@@ -1,0 +1,815 @@
+exports[`UI Test for Question Question should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Question
+    handleAnswerClick={[Function]}
+    id="a1"
+    item={
+        Object {
+            "Answers": Array [
+              Object {
+                "marked": false,
+                "option": "6.54 sec",
+              },
+              Object {
+                "marked": false,
+                "option": "44.32 sec",
+              },
+              Object {
+                "marked": false,
+                "option": "55 sec",
+              },
+              Object {
+                "marked": false,
+                "option": "30.2 sec",
+              },
+            ],
+            "Question": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+            "actualAnswer": "1",
+            "id": 1,
+            "type": "objective",
+            "userAnswer": "",
+          }
+    } />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "a1",
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="card-content">
+          1
+           . 
+          A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?
+</li>,
+        <li>
+          <ul
+                    className="card-action">
+                    <li
+                              onClick={[Function]}>
+                              <div
+                                        className="btn blue-grey darken-5">
+                                        1
+                                         . 
+                                        6.54 sec
+                              </div>
+                    </li>
+          </ul>
+          <ul
+                    className="card-action">
+                    <li
+                              onClick={[Function]}>
+                              <div
+                                        className="btn blue-grey darken-5">
+                                        2
+                                         . 
+                                        44.32 sec
+                              </div>
+                    </li>
+          </ul>
+          <ul
+                    className="card-action">
+                    <li
+                              onClick={[Function]}>
+                              <div
+                                        className="btn blue-grey darken-5">
+                                        3
+                                         . 
+                                        55 sec
+                              </div>
+                    </li>
+          </ul>
+          <ul
+                    className="card-action">
+                    <li
+                              onClick={[Function]}>
+                              <div
+                                        className="btn blue-grey darken-5">
+                                        4
+                                         . 
+                                        30.2 sec
+                              </div>
+                    </li>
+          </ul>
+</li>,
+      ],
+      "className": "card questionBody",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            1,
+            " . ",
+            "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          ],
+          "className": "card-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          1,
+          " . ",
+          "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul
+              className="card-action">
+              <li
+                            onClick={[Function]}>
+                            <div
+                                          className="btn blue-grey darken-5">
+                                          1
+                                           . 
+                                          6.54 sec
+                            </div>
+              </li>
+</ul>,
+            <ul
+              className="card-action">
+              <li
+                            onClick={[Function]}>
+                            <div
+                                          className="btn blue-grey darken-5">
+                                          2
+                                           . 
+                                          44.32 sec
+                            </div>
+              </li>
+</ul>,
+            <ul
+              className="card-action">
+              <li
+                            onClick={[Function]}>
+                            <div
+                                          className="btn blue-grey darken-5">
+                                          3
+                                           . 
+                                          55 sec
+                            </div>
+              </li>
+</ul>,
+            <ul
+              className="card-action">
+              <li
+                            onClick={[Function]}>
+                            <div
+                                          className="btn blue-grey darken-5">
+                                          4
+                                           . 
+                                          30.2 sec
+                            </div>
+              </li>
+</ul>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "101",
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                onClick={[Function]}>
+                <div
+                                className="btn blue-grey darken-5">
+                                1
+                                 . 
+                                6.54 sec
+                </div>
+</li>,
+              "className": "card-action",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="btn blue-grey darken-5">
+                  1
+                   . 
+                  6.54 sec
+</div>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    1,
+                    " . ",
+                    "6.54 sec",
+                  ],
+                  "className": "btn blue-grey darken-5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  1,
+                  " . ",
+                  "6.54 sec",
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": "111",
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                onClick={[Function]}>
+                <div
+                                className="btn blue-grey darken-5">
+                                2
+                                 . 
+                                44.32 sec
+                </div>
+</li>,
+              "className": "card-action",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="btn blue-grey darken-5">
+                  2
+                   . 
+                  44.32 sec
+</div>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    2,
+                    " . ",
+                    "44.32 sec",
+                  ],
+                  "className": "btn blue-grey darken-5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  2,
+                  " . ",
+                  "44.32 sec",
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": "121",
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                onClick={[Function]}>
+                <div
+                                className="btn blue-grey darken-5">
+                                3
+                                 . 
+                                55 sec
+                </div>
+</li>,
+              "className": "card-action",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="btn blue-grey darken-5">
+                  3
+                   . 
+                  55 sec
+</div>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    3,
+                    " . ",
+                    "55 sec",
+                  ],
+                  "className": "btn blue-grey darken-5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  3,
+                  " . ",
+                  "55 sec",
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": "131",
+            "nodeType": "host",
+            "props": Object {
+              "children": <li
+                onClick={[Function]}>
+                <div
+                                className="btn blue-grey darken-5">
+                                4
+                                 . 
+                                30.2 sec
+                </div>
+</li>,
+              "className": "card-action",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="btn blue-grey darken-5">
+                  4
+                   . 
+                  30.2 sec
+</div>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    4,
+                    " . ",
+                    "30.2 sec",
+                  ],
+                  "className": "btn blue-grey darken-5",
+                },
+                "ref": null,
+                "rendered": Array [
+                  4,
+                  " . ",
+                  "30.2 sec",
+                ],
+                "type": "div",
+              },
+              "type": "li",
+            },
+            "type": "ul",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "a1",
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="card-content">
+            1
+             . 
+            A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?
+</li>,
+          <li>
+            <ul
+                        className="card-action">
+                        <li
+                                    onClick={[Function]}>
+                                    <div
+                                                className="btn blue-grey darken-5">
+                                                1
+                                                 . 
+                                                6.54 sec
+                                    </div>
+                        </li>
+            </ul>
+            <ul
+                        className="card-action">
+                        <li
+                                    onClick={[Function]}>
+                                    <div
+                                                className="btn blue-grey darken-5">
+                                                2
+                                                 . 
+                                                44.32 sec
+                                    </div>
+                        </li>
+            </ul>
+            <ul
+                        className="card-action">
+                        <li
+                                    onClick={[Function]}>
+                                    <div
+                                                className="btn blue-grey darken-5">
+                                                3
+                                                 . 
+                                                55 sec
+                                    </div>
+                        </li>
+            </ul>
+            <ul
+                        className="card-action">
+                        <li
+                                    onClick={[Function]}>
+                                    <div
+                                                className="btn blue-grey darken-5">
+                                                4
+                                                 . 
+                                                30.2 sec
+                                    </div>
+                        </li>
+            </ul>
+</li>,
+        ],
+        "className": "card questionBody",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              1,
+              " . ",
+              "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+            ],
+            "className": "card-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            1,
+            " . ",
+            "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ul
+                className="card-action">
+                <li
+                                onClick={[Function]}>
+                                <div
+                                                className="btn blue-grey darken-5">
+                                                1
+                                                 . 
+                                                6.54 sec
+                                </div>
+                </li>
+</ul>,
+              <ul
+                className="card-action">
+                <li
+                                onClick={[Function]}>
+                                <div
+                                                className="btn blue-grey darken-5">
+                                                2
+                                                 . 
+                                                44.32 sec
+                                </div>
+                </li>
+</ul>,
+              <ul
+                className="card-action">
+                <li
+                                onClick={[Function]}>
+                                <div
+                                                className="btn blue-grey darken-5">
+                                                3
+                                                 . 
+                                                55 sec
+                                </div>
+                </li>
+</ul>,
+              <ul
+                className="card-action">
+                <li
+                                onClick={[Function]}>
+                                <div
+                                                className="btn blue-grey darken-5">
+                                                4
+                                                 . 
+                                                30.2 sec
+                                </div>
+                </li>
+</ul>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "101",
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  onClick={[Function]}>
+                  <div
+                                    className="btn blue-grey darken-5">
+                                    1
+                                     . 
+                                    6.54 sec
+                  </div>
+</li>,
+                "className": "card-action",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="btn blue-grey darken-5">
+                    1
+                     . 
+                    6.54 sec
+</div>,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      1,
+                      " . ",
+                      "6.54 sec",
+                    ],
+                    "className": "btn blue-grey darken-5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    1,
+                    " . ",
+                    "6.54 sec",
+                  ],
+                  "type": "div",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": "111",
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  onClick={[Function]}>
+                  <div
+                                    className="btn blue-grey darken-5">
+                                    2
+                                     . 
+                                    44.32 sec
+                  </div>
+</li>,
+                "className": "card-action",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="btn blue-grey darken-5">
+                    2
+                     . 
+                    44.32 sec
+</div>,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      2,
+                      " . ",
+                      "44.32 sec",
+                    ],
+                    "className": "btn blue-grey darken-5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    2,
+                    " . ",
+                    "44.32 sec",
+                  ],
+                  "type": "div",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": "121",
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  onClick={[Function]}>
+                  <div
+                                    className="btn blue-grey darken-5">
+                                    3
+                                     . 
+                                    55 sec
+                  </div>
+</li>,
+                "className": "card-action",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="btn blue-grey darken-5">
+                    3
+                     . 
+                    55 sec
+</div>,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      3,
+                      " . ",
+                      "55 sec",
+                    ],
+                    "className": "btn blue-grey darken-5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    3,
+                    " . ",
+                    "55 sec",
+                  ],
+                  "type": "div",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": "131",
+              "nodeType": "host",
+              "props": Object {
+                "children": <li
+                  onClick={[Function]}>
+                  <div
+                                    className="btn blue-grey darken-5">
+                                    4
+                                     . 
+                                    30.2 sec
+                  </div>
+</li>,
+                "className": "card-action",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="btn blue-grey darken-5">
+                    4
+                     . 
+                    30.2 sec
+</div>,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      4,
+                      " . ",
+                      "30.2 sec",
+                    ],
+                    "className": "btn blue-grey darken-5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    4,
+                    " . ",
+                    "30.2 sec",
+                  ],
+                  "type": "div",
+                },
+                "type": "li",
+              },
+              "type": "ul",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

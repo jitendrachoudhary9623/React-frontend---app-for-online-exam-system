@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mukta', sans-serif;
+  background: #eeeeee;
+  font-weight: 500;
+}
+.buttonStyle{
+  font-family: 'Mukta', sans-serif;
+ 
+}
+.buttonStyle:hover{
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+.questionBody{
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-top:1%;
+  margin-bottom: 1%;
+  padding:2%;
+}
+
+.navigationStyle{
+  margin-top:2%;
+  margin-bottom: 1%;
+}
+nav {
+  background-color:white  ;
+  color: #000;
+}
+nav > *{
+  color:black;
+}
+
+.pad-2{
+  padding:2%;
+}
+
+.sticky{
+  position: fixed;
+
+}
+
+.sidebar-item{
+  padding:2%;
+  background:rgb(240, 237, 237);
+  margin:1%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sidebar-sub-item{
+  padding:2%;
+  background:white;
+  margin-top:2%;
+  margin-left:2%;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.input-field input[type=text] + label{
+  color: #09b0fd !important;
+ }
+ 
+ .input-field input[type=text]{
+  border-bottom: 1px solid #09b0fd !important;
+  box-shadow: 0 1px 0 0 #09b0fd !important;
+  background: #f0eeee;
+  margin-top:1%;
+ }
+
+ input[type="text"]{
+  background: #f0eeee !important;
+
+ }
+ textarea{
+  background: #f0eeee !important;
+  height:10vh;
+ }
+ 
+ 
+ .input-field input[type=text]:focus + label{
+  color: #09b0fd !important;
+  
+ }
+ 
+ .input-field input[type=text]:focus{
+  border-bottom: 1px solid #09b0fd !important;
+  box-shadow: 0 1px 0 0 #09b0fd !important;
+ }
+
+ label{
+   font-size: 16px;
+ }
+
+
+  .scrollable{
+    overflow-y: scroll;
+    max-height:88vh;
+  }
